@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front-End Documentation</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  
+  <nav id="navbar">
+    <header>Front-End Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Getting_Started_With_Front-End">Getting Started With Front-End</a></li>
+      <li><a class="nav-link" href="#HTML_Basics">HTML Basics</a></li>
+      <li><a class="nav-link" href="#CSS_Basics">CSS Basics</a></li>
+      <li><a class="nav-link" href="#JavaScript_Basics">JavaScript Basics</a></li>
+      <li><a class="nav-link" href="#Front-End_Frameworks">Front-End Frameworks</a></li>
+    </ul>
+  </nav>
+
+  
+  <main id="main-doc">
+    <section class="main-section" id="Getting_Started_With_Front-End">
+      <header>Getting Started With Front-End</header>
+      <p>Steps to get started with front-end development:</p>
+      <ol>
+        <li>Learn the basics of <code>HTML</code>, <code>CSS</code>, and <code>JavaScript</code>.</li>
+        <li>Set up a code editor (e.g., <code>Visual Studio Code</code>).</li>
+        <li>Familiarize yourself with browser developer tools.</li>
+        <li>Build a simple static web page.</li>
+        <li>Practice by creating small projects and gradually move to more complex ones.</li>
+      </ol>
+    </section>
+
+    <section class="main-section" id="HTML_Basics">
+      <header>HTML Basics</header>
+      <p>HTML (HyperText Markup Language) is used to structure content on the web.</p>
+      <p>It consists of elements represented by tags, such as <code>&lt;p&gt;</code> (paragraph), <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> (headings), and <code>&lt;ul&gt;</code> (unordered list).</p>
+      <p>Here's an example of an HTML structure:</p>
+      <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;My First HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;This is a simple HTML document.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </code></pre>
+    </section>
+
+    <section class="main-section" id="CSS_Basics">
+      <header>CSS Basics</header>
+      <p>CSS (Cascading Style Sheets) is used to style and layout web pages.</p>
+      <p>It allows you to change colors, fonts, layouts, and other visual aspects of your web page.</p>
+      <p>Here is a basic example of CSS syntax:</p>
+      <pre><code>
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+      </code></pre>
+      <p>Inline styling can also be done using the <code>style</code> attribute in HTML elements, such as <code>&lt;div style="color: red;"&gt;Hello&lt;/div&gt;</code>.</p>
+    </section>
+
+    <section class="main-section" id="JavaScript_Basics">
+      <header>JavaScript Basics</header>
+      <p>JavaScript is a programming language used to create interactive and dynamic web pages.</p>
+      <p>It allows you to manipulate HTML and CSS to update content, respond to user actions, and more.</p>
+      <p>Here is an example of JavaScript code:</p>
+      <pre><code>
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("myButton").onclick = function() {
+        alert("Hello, World!");
+    };
+});
+      </code></pre>
+    </section>
+
+    <section class="main-section" id="Front-End_Frameworks">
+      <header>Front-End Frameworks</header>
+      <p>Popular front-end frameworks and libraries include:</p>
+      <ul>
+        <li><strong>React:</strong> A JavaScript library for building user interfaces, where components are created using <code>JSX</code>.</li>
+        <li><strong>Angular:</strong> A platform for building mobile and desktop web applications using <code>TypeScript</code>.</li>
+        <li><strong>Vue.js:</strong> A progressive JavaScript framework for building UIs on the web, often using a <code>template</code> structure.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
